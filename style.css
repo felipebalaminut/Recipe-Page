@@ -1,37 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --text-color-primary: #;
-    --text-color-secundary: #;
-    --text-color-on-bg: #;
+  font-family: "Alice", serif;
 
-    --bg-color: #573824;
-    --surface-color: #F0E8C2;
+  --text-color-primary: #291b1a;
+  --text-color-secundary: #573a37;
+  --text-color-on-bg: #f0e8c2;
+
+  --bg-color: #573824;
+  --surface-color: #f0e8c2;
 }
 
 #page {
-    width: 800px;
-    margin: 48px auto;
+  width: 800px;
+  margin: 48px auto;
 
-    background-color: var(--surface-color);
-    padding: 24px;
-    border-radius: 16px;
+  background-color: var(--surface-color);
+  padding: 24px;
+  border-radius: 16px;
 }
 
 body {
-    background-image: url(./assets/bg-image.png);
-    background-size: cover;
-    background-color: var(--bg-color);
+  background-image: url(./assets/bg-image.png);
+  background-size: cover;
+  background-color: var(--bg-color);
 }
 
 img {
-    border-radius: 16px;
+  border-radius: 16px;
+}
+
+main {
+  padding: 24px;
 }
 
 h1 {
-    
+  color: var(--text-color-primary);
+  font-size: 40px;
+  line-height: 140%;
+
+  margin-top: 24px 0 4px;
+}
+
+p,
+ul li {
+  color: var(--text-color-secundary);
+  line-height: 150%;
+}
+
+h2 {
+  color: var(--text-color-primary);
+  font-size: 24px;
+  line-height: 150%;
 }
