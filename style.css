@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color-primary: #;
+    --text-color-secundary: #;
+    --text-color-on-bg: #;
+
+    --bg-color: #573824;
+    --surface-color: #F0E8C2;
+}
+
+#page {
+    width: 800px;
+    margin: 48px auto;
+
+    background-color: var(--surface-color);
+    padding: 24px;
+    border-radius: 16px;
+}
+
+body {
+    background-image: url(./assets/bg-image.png);
+    background-size: cover;
+    background-color: var(--bg-color);
+}
+
+img {
+    border-radius: 16px;
+}
+
+h1 {
+    
+}
